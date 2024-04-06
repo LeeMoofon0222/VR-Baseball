@@ -1,22 +1,22 @@
 # VR-Baseball
-<h2>目的</h2>
-在現實生活中，我們常因場地的限制而無法自由自在的運動，尤其想要體驗棒球這種需要大場地的運動更是困難。因此，我們打算建立一個VR棒球遊戲，能在VR中暢玩不同種遊戲模式與場景。<br>
-我們利用Unity Engine來開發我們的遊戲環境，並使用 universal render pipeline 作為我們的渲染系統。在VR串接方面，我們使用Unity內建的套件XR.toolkit來實現投影、移動、轉向、物件互動等功能。
-<h2>遊戲玩法</h2>
-發球機: 在發球機模式中，玩家可以調整發球機的球速和球路，有助於了解自己的弱點並加以改進。其中，我們將利用CURVY SPLINE演算法模擬不同球種的飛行軌跡，並調整發球力道已實現不同的球速
-九宮格: 在九宮格模式中，玩家可以選擇額外模式和積分挑戰，以提升趣味性和挑戰性。
-<h2>「人機介面設計」（UI）與「使用者體驗」（UX）設計</h2>
-<strong>人機介面設計（UI）：</strong><br>
-<strong>主選單界面：</strong>玩家啟動遊戲後，首先會看到主選單界面。這個界面包含了我們的遊戲標題(虛擬棒球)、開始遊戲(九宮格)按鈕、開始遊戲(發球機)按鈕、遊戲玩法按鈕以及設定介面(如下)中的設定選項。選單的背景是使用貼合遊戲主題的圖片。<br>
-<strong>設定界面：</strong>進入遊戲後，只要玩家按下手把上特定的按鈕，就會在視野方向的兩公尺處浮現設定介面。介面包含音量調整slider bar、亮度調整slider bar，更改語言按鈕以及退出至主選單按鈕。<br>
-<strong>九宮格介面：</strong>在九宮格介面上，我們放置了用於顯示現在分數與最高分數的text，場景選擇按鈕以及模式按鈕。<br>
-<strong>發球機介面：</strong>在發球機介面上，我們放置了用於控制球速的slider bar，場景選擇按鈕以及用於設定發球曲線的按鈕。<br>
-<strong>使用者體驗設計（UX）：</strong><br>
-<strong>互動反饋：</strong>當玩家揮棒時，提供觸覺和聽覺的反饋，如震動反饋與擊球音效等，以增強遊戲的真實感和樂趣。<br>
-<strong>直觀的操作：</strong>我們將九宮格介面及發球機介面放在離玩家很近的布告欄上，美觀且不會遮住視線，由於可以直接用手把遠處選取介面，因此有著直觀且易於操作的優點，讓玩家能夠輕鬆調整參數。<br>
-<strong>遊戲引導：</strong>在主選單介面中，我們有提供遊戲玩法的文本，以幫助玩家了解遊戲的玩法和目標。<br>
-<strong>積分挑戰：</strong>在九宮格模式中有不同難度的積分挑戰，讓玩家有持續的目標和成就感。並且在介面上即時顯示玩家現在的分數及最高分數。<br>
+<h2>Purpose</h2>
+In real life, we are often limited by the availability of space for sports activities, especially for sports like baseball that require large fields. Therefore, we aim to create a VR baseball game that allows players to enjoy various game modes and scenarios in a virtual environment. We utilize the Unity Engine for developing our game environment and employ the Universal Render Pipeline for our rendering system. For VR integration, we utilize Unity's built-in XR toolkit package to implement features like projection, movement, rotation, and object interaction.
+<h2>Gameplay</h2>
+Pitching Machine Mode: In this mode, players can adjust the speed and direction of the pitch from the pitching machine. This helps players identify and improve their weaknesses. We use the CURVY SPLINE algorithm to simulate the flight trajectories of different types of pitches and adjust the force of the pitch to achieve various speeds.
+
+Nine Square Grid Mode: In this mode, players can choose additional modes and scoring challenges to enhance the fun and challenge.
+<h2>UI and UX Design</h2>
+<strong>User Interface (UI) Design:</strong><br>
+<strong>Main Menu Interface:</strong> Upon launching the game, players first see the main menu interface. This interface includes our game title (Virtual Baseball), buttons to start the game in either Nine Square Grid or Pitching Machine modes, a button for gameplay instructions, and settings options as described below. The menu background features images that fit the theme of the game.<br>
+<strong>Settings Interface:</strong> After entering the game, pressing a specific button on the controller will bring up the settings interface two meters in front of the player's direction of view. This interface includes a volume adjustment slider bar, a brightness adjustment slider bar, a button to change the language, and a button to exit to the main menu.<br>
+<strong>Nine Square Grid Interface:</strong> This interface displays the current and highest scores, a scene selection button, and mode buttons.<br>
+<strong>Pitching Machine Interface:</strong> This interface features a slider bar to control the speed of the pitch, a scene selection button, and buttons for setting the curve of the pitch.<br>
+<strong>User Experience (UX) Design:</strong><br>
+<strong>Interactive Feedback:</strong> When players swing the bat, tactile and auditory feedback, such as vibration feedback and hitting sounds, are provided to enhance the realism and enjoyment of the game.<br>
+<strong>Intuitive Operation:</strong> The Nine Square Grid and Pitching Machine interfaces are placed on billboards close to the player, which are visually appealing and do not obstruct the view. Since interfaces can be selected from a distance with the controller, this design is intuitive and easy to operate.<br>
+<strong>Game Tutorial:</strong> The main menu interface offers text instructions for gameplay to help players understand how to play and the objectives of the game.<br>
+<strong>Scoring Challenges:</strong> The Nine Square Grid mode includes scoring challenges of varying difficulty, providing players with ongoing goals and a sense of achievement. The interface displays the player's current score and the highest score in real-time.<br>
 <br>
 <img src="https://github.com/LeeMoofon0222/VR-Baseball/blob/main/%E5%9C%96%E7%89%871.png">
-<h2>執行影片</h2>
+<h2>Demo Video</h2>
 https://youtu.be/5MJH5xojeu4
